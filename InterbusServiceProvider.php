@@ -39,7 +39,6 @@ use Psr\Container\NotFoundExceptionInterface;
 
 class InterbusServiceProvider extends ServiceProvider
 {
-    private static bool $sentryAliased = false;
     public static ?string $source = null;
 
     /**
